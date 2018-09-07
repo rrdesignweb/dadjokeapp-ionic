@@ -1,0 +1,258 @@
+{
+  "schedule": [{
+    "groups": [{
+      "jokes": [{
+          "name": "This app is so dad it's good",
+          "topic": "App, technology"
+          }, {
+          "name": "What is your internet login? 'Tell my Wifi love her'",
+          "topic": "technology"
+          }, {
+          "name": "You better drink this sooner, rather that latte",
+          "topic": "coffee"
+          }, {
+          "name": "Don't Mocha Me",
+          "topic": "latte, coffee"
+          }, {
+          "name": "I am a bit sick today I have been coffee my guts up",
+          "topic": "latte, coffee, mocha"
+          }, {
+          "name": "Once you go long black you don't go back",
+          "topic": "latte, coffee, mocha"
+          }, {
+          "name": "Pretty Fly for a flat white guy",
+          "topic": "latte, coffee, mocha"
+          }, {
+          "name": "Wow, where did you get your masala spice mix from?..The Golden Chai-angle",
+          "topic": "latte, coffee, mocha"
+          }, {
+          "name": "How did you manage to get your masala mix from such a dangerous place? I have connections with the Chai-ads",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "This masala mix has a mysterious taste..where did you get it from? The Bermuda Chai-angle",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "Nice of you to Chai-me in on this joke",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "Can you please clean up your latte spill? I like things neat and Chai-dy",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "It's Naht a Tumor-ic Latte",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "Can you please supply that mocha-up to me espresso",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "Chai Harder Next Time",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "Lets Chai the knot",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "I am Sick and Chai-ed of this",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "Chai Chai have a nice day",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "Congratulations, you came first place in the Chai-athalon",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "Wow, this is Chai-namite!",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "Matcha made in heaven",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "Please don't tea-se me",
+          "topic": "latte, chai, tea, cup, coffee, mocha"
+          }, {
+          "name": "Soy about that",
+          "topic": "latte, chai, coffee, mocha"
+          }, {
+          "name": "You have got to be Karate Kidding me",
+          "topic": "movies"
+          }, {
+          "name": "Have you seen that movie constipation? No. It is because it's not out yet",
+          "topic": "movies"
+          }, {
+          "name": "I really love the verse of that song, you know which part I am talking about? Yes of chorus I do",
+          "topic": "music, song, track"
+          }, {
+          "name": "Do you want some toast? Yes you bread my mind",
+          "topic": "bakery, bread, food"
+          }, {
+          "name": "I walked into the bakery to by some bread but I had no dough",
+          "topic": "bakery, bread, food"
+          }, {
+          "name": "I tried to steal some bread but I got sconed. I ducked but I got creamed. They blocked my way out and I was in a real jam",
+          "topic": "bakery, bread, food"
+          }, {
+          "name": "That bosonberry ice-cream made me sick. I think I got food bosen",
+          "topic": "food"
+          }, {
+          "name": "That meal was way too salty...I am so in-sulted",
+          "topic": "dinner, food"
+          }, {
+          "name": "I'll Nutell-a you what!",
+          "topic": "sweets, chocolate"
+          }, {
+          "name": "You can tuna piano but you can't tuna fish",
+          "topic": "music, fish, food"
+          }, {
+          "name": "You missed out on sweets....you're a bit Choco-late",
+          "topic": "sweets, chocolate, food"
+          }, {
+          "name": "sorry those bananas don't look very a-peeling",
+          "topic": "food, fruit"
+          }, {
+          "name": "Eggcellent",
+          "topic": "eggs, food"
+          }, {
+          "name": "This is a good eggample of the eggtreme number of dad yolks",
+          "topic": "eggs, dad jokes, food"
+          }, {
+          "name": "Oregano put some herbs in that pasta?",
+          "topic": "food, dinner, italian"
+          }, {
+          "name": "I don't have mushroom left",
+          "topic": "meal, dinner, food"
+          }, {
+          "name": "I don't have mushroom in my stomach for another bite",
+          "topic": "dinner, meal, food, vegetable"
+          }, {
+          "name": "I think there is a leak in this box",
+          "topic": "dinner, meal, food, vegetable"
+          }, {
+          "name": "Not nessa-celery",
+          "topic": "dinner, meal, food, vegetable"
+          }, {
+          "name": "I don't like this cheese...How dairy you say that",
+          "topic": "dinner, meal, food, cow"
+          }, {
+          "name": "I have started going to yoga-urt sessions...Yes I am really loving the culture",
+          "topic": "dinner, meal, food, cow, yogurt"
+          }, {
+          "name": "P-ain't no doubt about that",
+          "topic": "paint, construction, building, art"
+          }, {
+          "name": "I have a problem with walking up stairs. Well shall we escalate the matter then?",
+          "topic": "paint, construction, building, art"
+          }, {
+          "name": "Why hasn't the train arrived? it had a mis-carriage",
+          "topic": "trains, transport"
+          }, {
+          "name": "You have gone a bit off the rails mate",
+          "topic": "trains, transport"
+          }, {
+          "name": "You're floating up the de-nile river",
+          "topic": "personal, denial"
+          
+          }, {
+          "name": "What do you call a mexican who has lost his car? ....Carlos",
+          "topic": "mexico, transport"
+          }, {
+          "name": "Hey Carlos, have you found your car yet?",
+          "topic": "mexico, transport"
+          }, {
+          "name": "You better holden for dear life when driving that car",
+          "topic": "car, holden, station wagon, sedan, transport"
+          }, {
+          "name": "Are you sure you can af-ford that car?",
+          "topic": "car, ford, station wagon, sedan, transport"
+          }, {
+          "name": "Chry-sler me a river",
+          "topic": "car, ford, station wagon, sedan, transport"
+          }, {
+          "name": "The last horse I backed in the Melbourne Cup had an itch so it was scratched",
+          "topic": "racing, carnival"
+          }, {
+          "name": "Cat-egorically speaking you are correct",
+          "topic": "cat, dog, animal"
+          }, {
+          "name": "This is an outright cat-ashrope",
+          "topic": "cat, dog, animal"
+          }, {
+          "name": "You have got to be kitten me",
+          "topic": "cat, dog, animal"
+          }, {
+          "name": "You are a great cat-ch",
+          "topic": "cat, dog, animal"
+          }, {
+          "name": "This is an event of cat-aclysmic proportions",
+          "topic": "cat, dog, animal"
+          }, {
+          "name": "Why is the cat in the lid of the printer? The doctor told me I need a cat scan",
+          "topic": "cat, dog, animal"
+          }, {
+          "name": "What did you get your dog for Christmas? A sub woofer",
+          "topic": "cat, dog, animal"
+          }, {
+          "name": "What is your dogs favorite song? The woof is on fire",
+          "topic": "cat, dog, animal"
+          }, {
+          "name": "Are coming to the derby today? Yes of horse I am",
+          "topic": "racing, carnival, cup"
+          }, {
+          "name": "That organist plays well..yes they are very organ-ised",
+          "topic": "music"
+          }, {
+          "name": "When the organ player retires he will donate his organs",
+          "topic": "music"
+          }, {
+          "name": "I am sick of jokes about german sausages...they are the wurst",
+          "topic": "food,meat"
+          }, {
+          "name": "The Frankfurts in Germany are not the wurst",
+          "topic": "food,meat"
+          }, {
+          "name": "What does a butcher say to his customers? 'Nice to meat you'",
+          "topic": "food,meat"
+          }, {
+          "name": "You butchered that joke, next time try not to mince your words",
+          "topic": "food,meat"
+          }, {
+          "name": "Excuse me I am looking for banana street? Yes turn that way and it's just around the bend",
+          "topic": "food, fruit"
+          }, {
+          "name": "Excuse me waiter I would like to order the duck curry. Certainly and who will be paying the bill?",
+          "topic": "food, dinner, meal"
+          }, {
+          "name": "The butcher went down to the casino and the steaks were high",
+          "topic": "food, dinner, meal, meat"
+          }, {
+          "name": "Why was the local butcher spying on the local abbattoir? Because he was on a steak out",
+          "topic": "food, dinner, meal, meat"
+          }, {
+          "name": "The alcholic butcher was told by the doctor 'Your liver is the wurst I have ever seen'",
+          "topic": "food, dinner, meal, meat"
+          }, {
+          "name": "I think your stir fry is getting overcooked...you better saute that out",
+          "topic": "food, dinner, meal, meat"
+          }, {
+          "name": "That breakfast cereal looks very a-muesiling",
+          "topic": "food, meal"
+          }, {
+          "name": "That apple crumble looks very apple-tising",
+          "topic": "food, meal, fruit"
+          }, {
+          "name": "Do you want some water? Yes that is a hydrate idea",
+          "topic": "drink"
+          }, {
+          "name": "You must of got that relish from a reliable sauce",
+          "topic": "food, meal, source"
+          }, {
+          "name": "Thanks for the jam doughnut. No worries dough-nut mention it",
+          "topic": "food, meal, sweets"
+          }, {
+          "name": "Your hairdresser must be a good driver..she knows all the shortcuts",
+          "topic": "hair, fashion haircut, driving, transport"
+          }, {
+          "name": "How do you like my formal attire? Sorry I don't think it suits you",
+          "topic": "hair, fashion haircut, clothes"
+          }
+       ]
+    }]
+  }]
+}

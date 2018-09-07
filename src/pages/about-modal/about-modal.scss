@@ -1,0 +1,13 @@
+page-about-modal.ion-page.show-page {
+    background: white;
+}
+::-webkit-scrollbar
+{
+  width: 0px;
+  height: 12px;
+  // padding:5px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 2px rgba(255,255,255,0.8);
+}

@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar no-border-top>
+    <div align="center" style="padding-bottom:10px;padding-top:15px">
+        <img src="logo.png" style="width:270px;"/>
+    </div>
+    <ion-searchbar color="primary"
+                   [(ngModel)]="queryText"
+                   (ionInput)="updateSchedule()"
+                   placeholder="Keyword Or Topic">
+    </ion-searchbar>
+    <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
+      <ion-segment-button value="all">
+        All
+      </ion-segment-button>
+      <ion-segment-button value="favorites">
+        Favourites
+      </ion-segment-button>
+
+    </ion-segment>
+
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <ion-list #scheduleList [hidden]="shownSessions === 0">
+    <ion-item-group *ngFor="let group of groups" [hidden]="group.hide">
+      <ion-item-sliding *ngFor="let joke of group.jokes" #slidingItem [hidden]="joke.hide" >
+        <button ion-item >
+          <p>
+            {{joke.name}}
+          </p>
+        </button>
+
+        <ion-item-options>
+          <button ion-button color="favorite" (click)="addFavorite(slidingItem, joke)" *ngIf="segment === 'all'">
+            <ion-icon name="star"></ion-icon><span style="font-size:11px">Favourite</span>
+          </button>
+        </ion-item-options>
+      </ion-item-sliding>
+    </ion-item-group>
+  </ion-list>
+
+  <ion-list *ngIf="segment === 'favorites'" >
+    <ion-item-group  >
+      <ion-item-sliding *ngFor="let item of items; let i = index" #slidingItem >
+        <button ion-item>
+        <p>
+          {{item}}
+        </p>
+        </button>
+        <ion-item-options>
+          <button ion-button color="danger" (click)="removeFavorite(slidingItem, joke, i)" *ngIf="segment === 'favorites'">
+            <ion-icon name="trash"></ion-icon><span style="font-size:11px">Remove</span>
+          </button>
+        </ion-item-options>
+      </ion-item-sliding>
+    </ion-item-group>
+  </ion-list>
+
+
+
+
+</ion-content>

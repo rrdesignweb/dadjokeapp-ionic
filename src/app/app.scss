@@ -1,0 +1,241 @@
+//IOS
+.list-ios ion-item-sliding {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.bar-button-ios[icon-only]{
+  COLOR:#FFF;
+}
+.toolbar-title-ios{
+      color: #FFF;
+}
+.toolbar-title{
+
+  text-overflow: initial;
+  white-space: inherit;
+}
+.toolbar-background-ios {
+    background: #09f;
+}
+.item-ios p{
+  color:#000;
+}
+.searchbar-ios .searchbar-input{
+  background:white!important;
+  text-align: center;
+}
+.item-ios[detail-push] .item-inner, button.item-ios:not([detail-none]) .item-inner, a.item-ios:not([detail-none]) .item-inner{
+  background:none;
+  padding-right:0;
+}
+.header-ios .toolbar-ios:last-child .toolbar-background-ios{
+  border:none;
+}
+.ios ion-nav > .ion-page > .toolbar.statusbar-padding:first-child ion-segment, .ios ion-nav > .ion-page > .toolbar.statusbar-padding:first-child ion-title, .ios ion-nav > .ion-page > ion-header > .toolbar.statusbar-padding:first-child ion-segment, .ios ion-nav > .ion-page > ion-header > .toolbar.statusbar-padding:first-child ion-title, .ios ion-tab > .ion-page > ion-header > .toolbar.statusbar-padding:first-child ion-segment, .ios ion-tab > .ion-page > ion-header > .toolbar.statusbar-padding:first-child ion-title, .ios ion-tabs > .ion-page.tab-subpage > ion-header > .toolbar.statusbar-padding:first-child ion-segment, .ios ion-tabs > .ion-page.tab-subpage > ion-header > .toolbar.statusbar-padding:first-child ion-title, .ios ion-menu > .menu-inner > .toolbar.statusbar-padding:first-child ion-segment, .ios ion-menu > .menu-inner > .toolbar.statusbar-padding:first-child ion-title, .ios ion-menu > .menu-inner > ion-header > .toolbar.statusbar-padding:first-child ion-segment, .ios ion-menu > .menu-inner > ion-header > .toolbar.statusbar-padding:first-child ion-title{
+  padding-top: 0px;
+  height: 0;
+  min-height: calc(25px + 0px);
+
+}
+.ios ion-nav > .ion-page > .toolbar.statusbar-padding:first-child, .ios ion-nav > .ion-page > ion-header > .toolbar.statusbar-padding:first-child, .ios ion-tab > .ion-page > ion-header > .toolbar.statusbar-padding:first-child, .ios ion-tabs > .ion-page.tab-subpage > ion-header > .toolbar.statusbar-padding:first-child, .ios ion-menu > .menu-inner > .toolbar.statusbar-padding:first-child, .ios ion-menu > .menu-inner > ion-header > .toolbar.statusbar-padding:first-child{
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+.toolbar-ios .segment-ios{
+  position:relative;
+}
+.toolbar-ios .segment-button{
+  max-width: 100%;
+}
+.list-ios{
+  margin-top:0px;
+}
+.segment-ios .segment-button{
+  color:#fff;
+  opacity: 0.7;
+  border-color: transparent;
+}
+.segment-ios .segment-button.segment-activated{
+  background-color: transparent;
+  border-bottom: 2px solid #f8f8f8;
+}
+
+//Android
+.alert-md .alert-input{
+  -webkit-user-select: all;  /* Chrome all / Safari all */
+ -moz-user-select: all;     /* Firefox all */
+ -ms-user-select: all;      /* IE 10+ */
+ user-select: all;          /* Likely future */
+ color:#999;
+}
+
+@font-face {
+  font-family: "luckiest_guyregular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../assets/fonts/luckiestguy-webfont.woff") format("woff"), url("../assets/fonts/luckiestguy-webfont.woff2") format("woff2"), url("../assets/fonts/luckiestguy-webfont.ttf") format("truetype");
+}
+
+*{
+    font-family: 'luckiest_guyregular';
+}
+html,
+body {
+  height: 100%;
+  overflow:hidden;
+  font-family: 'luckiest_guyregular';
+}
+body {
+  background: #09f!important;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwOTlmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQ1ZDFmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #0099ff), color-stop(100%, #45d1ff));
+  background-image: -moz-linear-gradient(bottom, #0099ff, #45d1ff);
+  background-image: -webkit-linear-gradient(bottom, #0099ff, #45d1ff);
+  background-image: linear-gradient(to top, #0099ff, #45d1ff);
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+}
+
+ion-segment,.tab-button-text,.searchbar-input,ion-label,.button-inner > span{
+
+}
+ion-label{
+  white-space: normal;
+  text-align: center;
+
+}
+.list-md ion-item-options{
+  border:0;
+
+}
+.item-md p{
+  padding-top: 6px;
+  font-size: 19px;
+  color:#000;
+
+}
+
+.toolbar-background-md{
+  background: #09f!important;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwOTlmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQ1ZDFmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #0099ff), color-stop(100%, #45d1ff));
+  background-image: -moz-linear-gradient(bottom, #0099ff, #45d1ff);
+  background-image: -webkit-linear-gradient(bottom, #0099ff, #45d1ff);
+  background-image: linear-gradient(to top, #0099ff, #45d1ff);
+}
+.searchbar-input-container {
+    width: 90%;
+    margin: 0 auto;
+
+}
+.searchbar-md .searchbar-input{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 12px;
+}
+.segment-md .segment-button{
+    font-size: 1.6rem;
+
+}
+.list-md .item-block .item-inner{
+    border:0;
+
+}
+.searchbar-md .searchbar-search-icon{
+    top:14px;
+
+}
+.list-md ion-item-sliding {
+    margin-bottom: 10px;
+
+    // border-bottom: 10px solid #09f;
+}
+.button-md{
+      font-size: 1.9rem;
+
+}
+.fixed-content{
+  background:#09f;
+
+}
+.selectable {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+// .searchbar-md .searchbar-clear-icon {
+// //     top: -17px;
+// // }
+// Media of at most the maximum breakpoint width. No query for the largest breakpoint.
+// Makes the @content apply to the given breakpoint and narrower.
+@mixin media-breakpoint-down($name, $breakpoints: $grid-breakpoints) {
+  $max: breakpoint-max($name, $breakpoints);
+  @if $max {
+    @media (max-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+
+// Name of the next breakpoint, or null for the last breakpoint.
+//
+//    >> breakpoint-next(sm)
+//    md
+//    >> breakpoint-next(sm, (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px))
+//    md
+//    >> breakpoint-next(sm, $breakpoint-names: (xs sm md lg xl))
+//    md
+@function breakpoint-next($name, $breakpoints: $grid-breakpoints, $breakpoint-names: map-keys($breakpoints)) {
+  $n: index($breakpoint-names, $name);
+  @return if($n < length($breakpoint-names), nth($breakpoint-names, $n + 1), null);
+}
+
+
+// Maximum breakpoint width. Null for the largest (last) breakpoint.
+// The maximum value is calculated as the minimum of the next one less 0.1.
+//
+//    >> breakpoint-max(sm, (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px))
+//    767px
+@function breakpoint-max($name, $breakpoints: $grid-breakpoints) {
+  $next: breakpoint-next($name, $breakpoints);
+  @return if($next, breakpoint-min($next, $breakpoints) - 1px, null);
+}
+
+
+// Creates text alignment classes based on screen size
+// TODO this would be nice to add to the framework
+@each $breakpoint in map-keys($grid-breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+    // Provide text `[text-{bp}]` attributes for aligning text based on screen size
+    [text#{$infix}-center] {
+      text-align: center;
+    }
+
+    [text#{$infix}-left] {
+      text-align: left;
+    }
+
+    [text#{$infix}-right] {
+      text-align: right;
+    }
+
+    [hidden#{$infix}-up] {
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-down($breakpoint, $grid-breakpoints) {
+    [hidden#{$infix}-down] {
+      display: none;
+    }
+  }
+}

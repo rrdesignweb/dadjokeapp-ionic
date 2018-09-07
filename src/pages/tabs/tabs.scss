@@ -1,0 +1,17 @@
+.tabbar {
+  justify-content: center;
+}
+
+.tab-button {
+  max-width: 200px;
+
+}
+.tabs-md .tab-button-icon,.tabs-md .tab-button{
+  color:#999;
+}
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon{
+  color:#999;
+}
+.has-icon .tab-button-text{
+    color:#999;
+}
