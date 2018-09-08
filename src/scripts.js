@@ -11,7 +11,6 @@ $(window).load(function(){
   $("#tab-t0-2").addClass("pause");
 });
 
-
 var audioElement = document.createElement('audio');
 audioElement.setAttribute('src', 'bglaughs.mp3');  //'bglaughs.mp3');
 
@@ -25,27 +24,21 @@ audioElement.addEventListener('ended', function() {
   this.play();
 }, true);
 
-
 $(document).on('click', '.play', function() {
   audioElement.play();
   $(this).removeClass('play').addClass('pause');
   $('.ion-md-volume-off').removeClass('ion-md-volume-off').addClass('ion-md-volume-up');
 });
-
-
 $(document).on('click', '.pause', function() {
   audioElement.pause();
   $(this).removeClass('pause').addClass('play');
   $('.ion-md-volume-up').removeClass('ion-md-volume-up').addClass('ion-md-volume-off');
 });
-
 $(document).on('click', '.play', function() {
   audioElement.play();
   $(this).removeClass('play').addClass('pause');
   $('.ion-ios-volume-off-outline').removeClass('ion-ios-volume-off-outline').addClass('ion-ios-volume-up-outline');
 });
-
-
 $(document).on('click', '.pause', function() {
   audioElement.pause();
   $(this).removeClass('pause').addClass('play');

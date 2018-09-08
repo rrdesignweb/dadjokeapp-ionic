@@ -1,19 +1,14 @@
 import { Injectable } from '@angular/core';
-
 import { Http } from '@angular/http';
-
 import { UserData } from './user-data';
-
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/observable/of';
 
-
 @Injectable()
-export class ConferenceData {
+export class JokeData {
   data: any;
   constructor(public http: Http, public user: UserData) { }
-
   load(): any {
     if (this.data) {
       return Observable.of(this.data);
@@ -22,17 +17,13 @@ export class ConferenceData {
         .map(this.processData, this);
     }
   }
-
   processData(data: any) {
-
     this.data = data.json();
-    
     return this.data;
   }
-
   getTimeline(dayIndex: number, queryText = '', segment = 'all') {
     return this.load().map((data: any) => {
-      let day = data.schedule[dayIndex];
+      let day = data.jokelist[dayIndex];
       day.shownSessions = 0;
 
       queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
@@ -72,7 +63,6 @@ export class ConferenceData {
       // if there are no query words then this joke passes the query test
       matchesQueryText = true;
     }
-
     // if the segement is 'favorites', but joke is not a user favorite
     // then this joke does not pass the segment test
     let matchesSegment = false;
@@ -83,7 +73,6 @@ export class ConferenceData {
     } else {
       matchesSegment = true;
     }
-
     // all tests must be true if it should not be hidden
     joke.hide = !(matchesQueryText && matchesSegment);
   }

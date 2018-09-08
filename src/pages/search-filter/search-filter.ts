@@ -1,27 +1,18 @@
 import { Component } from '@angular/core';
-
 import { NavParams, ViewController } from 'ionic-angular';
-
-import { ConferenceData } from '../../providers/conference-data';
-
-
+import { JokeData } from '../../providers/joke-data';
 @Component({
   selector: 'page-schedule-filter',
-  templateUrl: 'schedule-filter.html'
+  templateUrl: 'search-filter.html'
 })
-export class ScheduleFilterPage {
-  
+export class SearchFilterPage {
   constructor(
-    public confData: ConferenceData,
+    public jokeData:JokeData,
     public navParams: NavParams,
     public viewCtrl: ViewController
   ) {
-
-
   }
   dismiss(data?: any) {
-    // using the injected ViewController this page
-    // can "dismiss" itself and pass back data
     this.viewCtrl.dismiss(data);
   }
 }

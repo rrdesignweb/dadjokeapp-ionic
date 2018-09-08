@@ -1,5 +1,5 @@
 {
-  "schedule": [{
+  "jokelist": [{
     "groups": [{
       "jokes": [{
           "name": "This app is so dad it's good",
@@ -148,7 +148,7 @@
           }, {
           "name": "You're floating up the de-nile river",
           "topic": "personal, denial"
-          
+
           }, {
           "name": "What do you call a mexican who has lost his car? ....Carlos",
           "topic": "mexico, transport"

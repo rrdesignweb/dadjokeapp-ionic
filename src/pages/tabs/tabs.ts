@@ -17,6 +17,7 @@ export class TabsPage {
     title: 'Copy to Social Media',
     inputs: [
       {
+        id: "autofocu",
         name: 'link',
         value:'www.happiedad.com'
       }
@@ -28,7 +29,11 @@ export class TabsPage {
     ]
     });
     // now present the alert on top of all other content
-    alert.present();
+    alert.present()
+    .then(() => {
+    document.getElementById('autofocu').select();
+  })
+  .catch()
   }
   openAbout() {
     let myModal = this.modalCtrl.create(AboutModalPage);

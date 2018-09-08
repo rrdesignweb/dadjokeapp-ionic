@@ -15,13 +15,10 @@
       <ion-segment-button value="favorites">
         Favourites
       </ion-segment-button>
-
     </ion-segment>
-
   </ion-toolbar>
 </ion-header>
 <ion-content>
-
   <ion-list #scheduleList [hidden]="shownSessions === 0">
     <ion-item-group *ngFor="let group of groups" [hidden]="group.hide">
       <ion-item-sliding *ngFor="let joke of group.jokes" #slidingItem [hidden]="joke.hide" >
@@ -30,7 +27,6 @@
             {{joke.name}}
           </p>
         </button>
-
         <ion-item-options>
           <button ion-button color="favorite" (click)="addFavorite(slidingItem, joke)" *ngIf="segment === 'all'">
             <ion-icon name="star"></ion-icon><span style="font-size:11px">Favourite</span>
@@ -41,7 +37,7 @@
   </ion-list>
 
   <ion-list *ngIf="segment === 'favorites'" >
-    <ion-item-group  >
+    <ion-item-group>
       <ion-item-sliding *ngFor="let item of items; let i = index" #slidingItem >
         <button ion-item>
         <p>
@@ -56,8 +52,4 @@
       </ion-item-sliding>
     </ion-item-group>
   </ion-list>
-
-
-
-
 </ion-content>

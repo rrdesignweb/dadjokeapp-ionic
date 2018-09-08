@@ -3,7 +3,6 @@
     <ion-buttons start>
       <button ion-button (click)="dismiss()">Cancel</button>
     </ion-buttons>
-
     <ion-title>
       Filter Jokes
     </ion-title>
@@ -15,10 +14,8 @@
 </ion-header>
 
 <ion-content class="outer-content">
-
   <ion-list>
     <ion-list-header>Tracks</ion-list-header>
-
     <ion-item *ngFor="let track of tracks" [attr.track]="track.name | lowercase">
       <span item-left class="dot"></span>
       <ion-label>{{track.name}}</ion-label>

@@ -8,42 +8,42 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { SplashScreen  } from '@ionic-native/splash-screen';
 
 import { IonicStorageModule } from '@ionic/storage';
-import { ConferenceApp } from './app.component';
+import { JokeApp } from './app.component';
 
 import { HomePage } from '../pages/home/home';
 import { AboutModalPage } from '../pages/about-modal/about-modal';
-import { ScheduleFilterPage } from '../pages/schedule-filter/schedule-filter';
+import { SearchFilterPage } from '../pages/search-filter/search-filter';
 import { TabsPage } from '../pages/tabs/tabs';
 
-import { ConferenceData } from '../providers/conference-data';
+import { JokeData } from '../providers/joke-data';
 import { UserData } from '../providers/user-data';
 
 @NgModule({
   declarations: [
-    ConferenceApp,
+    JokeApp,
     HomePage,
-    ScheduleFilterPage,
+    SearchFilterPage,
     AboutModalPage,
     TabsPage
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    IonicModule.forRoot(ConferenceApp),
+    IonicModule.forRoot(JokeApp),
     IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    ConferenceApp,
+    JokeApp,
     HomePage,
-    ScheduleFilterPage,
+    SearchFilterPage,
     AboutModalPage,
     TabsPage
   ],
   providers: [
     Storage,
     { provide: ErrorHandler, useClass: IonicErrorHandler },
-    ConferenceData,
+    JokeData,
     UserData,
     InAppBrowser,
     SplashScreen
