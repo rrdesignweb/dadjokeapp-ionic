@@ -21,15 +21,15 @@ export class JokeData {
     this.data = data.json();
     return this.data;
   }
-  getTimeline(dayIndex: number, queryText = '', segment = 'all') {
+  getList(jokeIndex: number, queryText = '', segment = 'all') {
     return this.load().map((data: any) => {
-      let day = data.jokelist[dayIndex];
-      day.shownSessions = 0;
+      let list = data.jokelist[jokeIndex];
+      list.shownSessions = 0;
 
       queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
       let queryWords = queryText.split(' ').filter(w => !!w.trim().length);
 
-      day.groups.forEach((group: any) => {
+      list.groups.forEach((group: any) => {
         group.hide = true;
 
         group.jokes.forEach((joke: any) => {
@@ -39,18 +39,16 @@ export class JokeData {
           if (!joke.hide) {
             // if this joke is not hidden then this group should show
             group.hide = false;
-            day.shownSessions++;
+            list.shownSessions++;
           }
         });
 
       });
 
-      return day;
+      return list;
     });
   }
-
   filterSession(joke: any, queryWords: string[], segment: string) {
-
     let matchesQueryText = false;
     if (queryWords.length) {
       // of any query word is in the joke name than it passes the query test

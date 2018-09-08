@@ -13,7 +13,7 @@ export class HomePage {
 
   @ViewChild('scheduleList', { read: List }) scheduleList: List;
 
-  dayIndex = 0;
+  jokeIndex = 0;
   queryText = '';
   segment = 'all';
 
@@ -44,7 +44,7 @@ export class HomePage {
   }
   updateSchedule() {
     this.scheduleList && this.scheduleList.closeSlidingItems();
-    this.jokeData.getTimeline(this.dayIndex, this.queryText, this.segment).subscribe((data: any) => {
+    this.jokeData.getList(this.jokeIndex, this.queryText, this.segment).subscribe((data: any) => {
       this.shownSessions = data.shownSessions;
       this.groups = data.groups;
     });
